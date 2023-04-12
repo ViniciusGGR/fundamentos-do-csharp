@@ -2,6 +2,8 @@
 
 Curso dos fundamentos da linguagem C# do balta.io.
 
+[**Link do curso**](https://balta.io/cursos/fundamentos-csharp)
+
 ---
 
 - [Linguagens e Compiladores](./modules/linguagens_e_compiladores/)
