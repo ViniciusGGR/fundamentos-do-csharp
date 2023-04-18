@@ -4,6 +4,10 @@
 
 - [Linguagens de programação](#linguagens-de-programação)
 - [Alto e baixo nível](#alto-e-baixo-nível)
+- [Linguagem compilada e interpretada](#linguagem-compilada-e-interpretada)
+    - [Linguagens Compiladas](#linguagens-compiladas)
+    - [Linguagens Interpretadas](#linguagens-interpretadas)
+- [Compilada e Interpretada]()
 
 ---
 
@@ -44,3 +48,31 @@ Quanto mais específico você precisa ser ao escrever o código, mais **baixo n�
 Linguagens de **alto nível** já fornecem acesso à tudo que é preciso a nível de hardware já pronto.
 
 ---
+
+## Linguagem compilada e interpretada
+
+### Linguagens Compiladas:
+
+Dada quando existe o processo de _compilação_ da mesma.
+
+- Consiste em receber um arquivo texto e convertê-lo para binário.
+    - Normalmente otimizado para leitura de humanos.
+
+### Linguagens Interpretadas:
+
+- Arquivo de texto.
+    - Lidos e _interpretados_ por um **intérprete**
+    - Feito em _tempo de execução_.
+- **JavaScript** é _interpretado_.
+
+Esses _arquivos de texto_ **NÃO** são convertidos para binário.
+
+> **Tempo de Execução**: É o que acontece durante a execução do código pelo computador ou interpretador.
+
+- No caso do **JavaScript**:
+    - O navegador normalmente é escrito em uma linguagem de _alto nível_.
+    - Possui um _interpretador_.
+    - Lê e executa um arquivo de texto **JavaScript** em tempo real.
+
+---
+
