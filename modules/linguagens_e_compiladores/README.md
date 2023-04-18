@@ -29,3 +29,18 @@ Existem várias linguagens de programação:
 
 ## Alto e baixo nível
 
+Ao enviar uma instrução ao computador estamos falando em nível de máquina (baixo nível).
+
+Estas instruções sempre serão no formato binário (``0`` e ``1``).
+
+Quanto mais detalhada a necessidade, mais baixo o nível.
+
+As linguagens mais modernas como C#, Java, Dart, PHP... são consideradas de **alto nível** (mais próximo do usuário/devs).
+
+- Um exemplo de uma linguagem de programação de baixo nível é o **Assembly**.
+
+Quanto mais específico você precisa ser ao escrever o código, mais **baixo nível** é preciso descer.
+
+Linguagens de **alto nível** já fornecem acesso à tudo que é preciso a nível de hardware já pronto.
+
+---
