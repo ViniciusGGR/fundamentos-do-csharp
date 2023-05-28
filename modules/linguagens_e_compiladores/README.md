@@ -5,7 +5,9 @@
 - [Linguagens de programação](#linguagens-de-programação)
 - [Alto e baixo nível](#alto-e-baixo-nível)
 - [Linguagem compilada e interpretada](#linguagem-compilada-e-interpretada)
-- [Compilada e interpretada]()
+    - [Linguagens Compiladas](#linguagens-compiladas)
+    - [Linguagens Interpretadas](#linguagens-interpretadas)
+- [Compilada e interpretada](#compilada-e-interpretada)
 - [Tipagem de dados]()
 
 ---
@@ -82,4 +84,34 @@ Exemplos:
 ---
 
 ## Linguagem compilada e interpretada
+
+### Linguagens Compiladas
+
+Definições:
+
+- Dada quando existe o _processo de **compilação**_ da mesma.
+- Consiste em receber um _arquivo texto_ e "convertê-lo" para **binário** (0 e 1).
+    - Normalmente otimizado para "_leitura de humanos_".
+
+### Linguagens Interpretadas
+
+Definições:
+
+- Arquivos de texto "puro", e esses arquivos _não são convertidos_ para **binário**.
+    - São "lidos" e **interpretados** por um "_intérprete_".
+    - Feito em **tempo de execução** (tempo real).
+- _JavaScript_ é **interpretado**.
+
+> **Tempo de Execução**: É o que acontece durante a _execução do código_ pelo **computador** ou **interpretador**.
+
+- No caso do _JavaScript_
+    - O navegador é escrito em uma **linguagem de alto nível** (pode ser de **baixo nível** também).
+    - Possui um **interpretador**.
+    - "Lê" e _executa_ um arquivo de texto com _extensão JavaScript_.
+
+    O navegador é o "intérprete" e em **tempo de execução** (tempo real) faz a interpretação do texto e executa o _JavaScript_.
+
+---
+
+## Compilada e interpretada
 
