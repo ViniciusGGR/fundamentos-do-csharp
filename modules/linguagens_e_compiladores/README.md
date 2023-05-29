@@ -154,3 +154,52 @@ Definições:
 
 ## Tipagem de dados
 
+Definições:
+
+- Também chamadas (conhecidas) de **fortemente tipadas**.
+- _Obrigam_ a especificar o **tipo de dado** da informação que será armazenada em uma (``variável``).
+- Menor liberdade, pois não é possível "criar" _qualquer tipo de informação_ dentro da aplicação.
+- Maior **otimização**.
+
+> **Tipo de Dado**: Um _tipo de dado_ define o "**formato**" dessa **informação**, onde definimos por exemplo que aquela **informação** é um _número_, uma _letra_, uma _cadeia de caracteres_ e assim por diante.
+
+Uma ``variável`` é uma **informação** declarada que pode ser _alterada_ posteriormente.
+
+Uma ``constante`` é uma **informação** que uma vez declarada, _nunca_ poderá ser _alterada_.
+
+- **Exemplos em C#**:
+    ```
+    int age = 18;      // OK
+    int age = 18.2;    // ERRO - (valor do tipo 'double')
+    int age = "18";    // ERRO - (valor do tipo 'string')
+    int age = 'a';     // ERRO - (valor do tipo 'char')
+    ```
+
+    A palavra-chave ``int`` define que essa ``variável`` recebe um valor **inteiro**, sem _casas decimais_, não tem _pontuação_.
+
+    - Mesmo exemplo em _JavaScript_, uma **linguagem não tipada**:
+        ```
+        let idade = 18;      // OK
+        let idade = 18.2;    // OK
+        let idade = "18";    // OK
+        let idade = 'a';     // OK
+        ```
+
+> **C#** é uma linguagem de **alto nível**, **compilada** e **fortemente tipada**.
+
+Definições:
+
+- A _tipagem de dados_ serve para definir **tipos** e _padronizar os dados/informações_.
+    - Para nós e para o **processador/memória**.
+- O ``let`` utiliza "sempre" o mesmo _tamanho de alocação_ (não tem **otimização**).
+- **Tipando** temos uma _otimização_.
+
+- No **C#** por exemplo:
+    ```
+    int => 32-bit
+    float => 32 bit
+    double => 64 bit
+    decimal => 128 bit
+    ```
+
+---
