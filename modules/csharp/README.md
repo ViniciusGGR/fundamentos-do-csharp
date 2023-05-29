@@ -6,7 +6,8 @@
     - [Por que aprender C#?](#por-que-aprender-c)
 - [C# como primeira linguagem](#c-como-primeira-linguagem)
 - [Código gerenciado](#código-gerenciado)
-- [Compilação e gerenciamento]()
+    - [Definições - Código Gerenciado](#definições---código-gerenciado)
+- [Compilação e gerenciamento](#compilação-e-gerenciamento)
 - [IL]()
 
 ---
@@ -57,4 +58,29 @@ Definições:
 ---
 
 ## Código gerenciado
+
+Definições sobre C#:
+
+- É uma _linguagem **tipada**_.
+- É **compilada**.
+- De _código gerenciado_.
+
+### Definições - Código Gerenciado
+
+- É uma _linguagem_ em que sua "execução" _depende_ de um **gerenciador**.
+    - Também conhecido como **Runtime**.
+    - No caso do **C# (.NET)** este **Runtime** se chama **``CLR``** ou **``CLR Runtime``**.
+- O **``CLR``** gerencia _memória_, _segurança_, entre outros _recursos básicos_.
+
+> **``CLR``**: É uma sigla para _Common Language Runtime_ ou (**gerenciador de linguagem comum**).
+
+Definições:
+
+- Em linguagens como C/C++ por exemplo, a _alocação de memória_ é feita **manualmente**.
+- A "tela azul do Windows" ocorre na maioria das vezes porque algum programa tentou acessar algum lugar da _memória_ que estava "reservado" **exclusivamente** para o _Sistema Operacional_ (S0).
+- Quando se tem um **gerenciador** (Runtime), interagimos menos ou quase não interagir com _recursos da máquina_ e o desenvolvimento fica _mais "rápido e seguro"_.
+
+---
+
+## Compilação e gerenciamento
 
