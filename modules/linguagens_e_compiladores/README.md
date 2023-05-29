@@ -8,7 +8,9 @@
     - [Linguagens Compiladas](#linguagens-compiladas)
     - [Linguagens Interpretadas](#linguagens-interpretadas)
 - [Compilada e interpretada](#compilada-e-interpretada)
-- [Tipagem de dados]()
+    - [Linguagem Interpretada](#linguagem-interpretada)
+    - [Linguagem Compilada](#linguagem-compilada)
+- [Tipagem de dados](#tipagem-de-dados)
 
 ---
 
@@ -114,4 +116,41 @@ Definições:
 ---
 
 ## Compilada e interpretada
+
+### Linguagem Interpretada
+
+**Prós**:
+
+- Não precisa ser **compilada**.
+    - Não existe "tempo de **compilação**".
+- _Correções_ mais fáceis de serem executadas.
+- Mais simples de serem distribuidas (arquivos "estáticos").
+- Não tem a necessidade de ser "traduzida" para uma _linguagem de máquina_.
+
+**Contras**:
+
+- Detecção de erros mais "difícil".
+    - Erros "aparecerão" somente em "**tempo de execução**".
+- Tamanho "final" da aplicação **maior**.
+- Menor _otimização_ da execução.
+- Múltiplos arquivos.
+
+### Linguagem Compilada
+
+**Prós**:
+
+- Tempo de **compilação** - Tudo o que acontece enquanto o programa está sendo **compilado**.
+    - Detecção mais rápida de erros.
+- Tamanho "menor" das aplicações.
+- Maior _otimização_ da execução.
+- Apenas um arquivo final.
+
+**Contras**:
+
+- Precisa de um **compilador** (transforma a linguagem em uma _linguagem de máquina_ (baixo nível)).
+- Pode ser mais "burocrática".
+
+---
+
+## Tipagem de dados
 
