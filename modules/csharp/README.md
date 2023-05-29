@@ -4,8 +4,8 @@
 
 - [Por que utilizar C#?](#por-que-utilizar-c)
     - [Por que aprender C#?](#por-que-aprender-c)
-- [C# como primeira linguagem]()
-- [Código gerenciado]()
+- [C# como primeira linguagem](#c-como-primeira-linguagem)
+- [Código gerenciado](#código-gerenciado)
 - [Compilação e gerenciamento]()
 - [IL]()
 
@@ -43,4 +43,18 @@ Definições:
 ---
 
 ## C# como primeira linguagem
+
+Definições:
+
+- Não é a _linguagem_ mais fácil.
+- Focada em **OOP** (Orientação à Objetos) - _Base da programação_.
+    - Tem também a **Programação Funcional**.
+- **OOP** vai te dá a "base" para _aprender coisas novas_.
+    - Quanto "mais tempo" na _base_, "mais fácil" aprender coisas novas.
+
+> **Dica**: A _linguagem_ mais "**fácil**" no começo pode te prejudicar no final.
+
+---
+
+## Código gerenciado
 
