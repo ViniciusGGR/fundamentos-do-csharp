@@ -8,7 +8,7 @@
 - [Código gerenciado](#código-gerenciado)
     - [Definições - Código Gerenciado](#definições---código-gerenciado)
 - [Compilação e gerenciamento](#compilação-e-gerenciamento)
-- [IL]()
+- [IL](#il)
 
 ---
 
@@ -83,4 +83,31 @@ Definições:
 ---
 
 ## Compilação e gerenciamento
+
+Definições:
+
+- A **Microsoft** possui outras _linguagens_ como ``VB.NET``, ``F#`` e até ``Cobol.NET``.
+- Todas essas _linguagens_ precisam ser mantidas.
+    - **Manutenção de código** mesmo, _correções de bugs_ e afins são tarefas que a **Microsoft** tem que executar com frequência nessas _linguagens_.
+- Quando o "ecossistem" de desenvolvimento **Microsoft** foi criado ele foi _pensado_ desta forma:
+    - Dar **suporte** a _várias linguagens_.
+- Se cada _linguagem_ tivesse um **gerenciador**, isto seria muito complicado de manter essas _linguagens_.
+
+A **Microsoft** pensando nessa melhor **Manutenção de código** dessas _linguagens_ criou um **ecossistema** onde:
+
+- Os **compiladores** ficam _separados_.
+    - Um para cada _linguagem_ (Ou mais de uma _linguagem_).
+    Cada linguagem terá suas caracteristicas "únicas".
+
+- A **compilação** inicial gera um _código intermediário_.
+    - **Intermediate Language** (``IL``).
+    - Essa **compilação** inicial _não gera_ o código final (**binário** (0 e 1)).
+
+> **``IL``**: Sigla para **Intermediate Language** ou (_linguagem intermediária_).
+
+Resumindo: Quando um código **C#/F#/VB.NET** é **compilado** ele é "traduzido" para uma **Intermediate Language** (``IL``) e só depois ele é _realmente_ **compilado**. Isso faz com que se tenha apenas um **gerenciador** para todas essas _linguagens_ e permite a utilização de diferentes tipos arquivos dentro do mesmo **projeto**.
+
+---
+
+## IL
 
