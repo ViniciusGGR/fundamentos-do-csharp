@@ -111,3 +111,22 @@ Resumindo: Quando um código **C#/F#/VB.NET** é **compilado** ele é "traduzido
 
 ## IL
 
+Definições:
+
+- Embora as **compilações** sejam diferentes em cada _linguagem_:
+    - O **gerenciamento** é igual.
+    - Alocação de memória é igual.
+    - Execução de instruções no processador é igual.
+- O ``CLR`` **compila** para _código de máquina_ (**binário**), executa e gerencia.
+    - Qualquer _linguagem_ suportada no ecossistema Microsoft: **C#**, **VB.NET**, **F#**, **Cobol.NET**.
+- Por conta da ``IL`` é possível ter _arquivos_ **C#** e **VB.NET** no _mesmo projeto_ (Nota: Não é uma prática recomendada ter arquivos de _linguagens_ diferentes no mesmo projeto).
+    - Mas **nunca** no mesmo arquivo.
+- O resultado da **compilação** do ``IL`` é sempre o mesmo (o código **binário** será igual), independente da _linguagem_ escolhida.
+
+``Código: C#, VB.NET, F#, Cobol.NET``    **---->**    ``"Traduzido" para Intermediate Language (IL)``    **---->**    ``Gerado Código Binário (0s e 1s)``.
+
+> O processo de **conversão** do ``IL`` para **binário** é conhecido como ``JIT`` - Sigla para **Just in Time**.
+
+``IL`` é uma **linguagem intermediária** na qual todas _linguagens_ da **Microsoft** são **compiladas**.
+
+---
