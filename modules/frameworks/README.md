@@ -4,7 +4,7 @@
 
 - [Frameworks](#frameworks-1)
 - [.NET Framework](#net-framework)
-- [.NET Core]()
+- [.NET Core](#net-core)
 - [.NET Standard]()
 - [.NET 5]()
 - [LTS]()
@@ -36,4 +36,19 @@ Definições:
 ---
 
 ## .NET Framework
+
+Definições:
+
+- **C#** (C-Sharp) é a _linguagem de programação_ (você é **Programador C#**).
+- O **Framework** se chama ``.NET`` (dotnet).
+    - Teve sua primeira versão em meados de 2001.
+        - Chamado de ``.NET Framework``.
+    - Recebeu as versões 1.0, 1.1, 2.0, 3.0, 3.5, 4._x_ (Atualmente).
+    - Pode ser _instalado_ **Side-by-Side** (Ter várias versões do ``.NET Framework`` lado-a-lado).
+    - Compatível somente com **Windows** (_Não suporta_ Mac e Linux).
+    - Considerado **legado** - (Softwares mais antigos - com anos no mercado).
+
+---
+
+## .NET Core
 
