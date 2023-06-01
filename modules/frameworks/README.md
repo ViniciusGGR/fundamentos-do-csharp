@@ -9,7 +9,9 @@
 - [.NET 5](#net-5)
     - [.NET 5 - Futuro](#net-5---futuro)
 - [LTS](#lts)
-- [Versionamento]()
+    - [Releases (Lançamentos)](#releases-lançamentos)
+    - [Sigla LTS](#sigla-lts)
+- [Versionamento](#versionamento)
 - [Runtime e SDK]()
 
 ---
@@ -108,4 +110,35 @@ Definições:
 ---
 
 ## LTS
+
+### Releases (Lançamentos)
+
+**Release** é uma _versão nova_ de algo do software, framework ou qualquer outra coisa. 
+
+Definições:
+
+- ``.NET Framework`` - Não possuia uma data de lançamento programada.
+- ``.NET Core`` - Lançamentos (**Releases**) semestrais.
+- ``.NET 5 e futuros`` - Lançamentos (**Releases**) anuais.
+
+> Com **Releases** frequentes as mudanças são _menores_, com **Releases** com espaço de tempo maior as mudanças são _maiores_.
+
+### Sigla LTS
+
+Definições:
+
+- Sigla para **Long Term Support** (Suporte de longa data).
+    - A versão **``LTS``** deve ser utilizada em **produção**, pois será a **versão** garantida pelo _suporte_ da **Microsoft** por mais tempo. 
+- ``.NET Framework`` - Todas as _versões_ eram ``LTS``.
+- ``.NET Core`` - Todas as _versões_ com final ``1`` eram ``LTS``.
+    - **1.1, 2.1, 3.1**...
+- ``.NET 5`` e futuros - Versões maiores (**Major Version**).
+    - **5, 6, 7, 8**...
+    - Versões como 5.x, 6.x, 7.x **NÃO SERAM** ``LTS``.
+
+> Opte **sempre** por ``LTS`` para _projetos em produção_. _Evite_ trabalhar em _produção_ com versões **beta** e **alpha**.
+
+---
+
+## Versionamento
 
