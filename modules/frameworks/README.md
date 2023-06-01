@@ -6,7 +6,7 @@
 - [.NET Framework](#net-framework)
 - [.NET Core](#net-core)
 - [.NET Standard](#net-standard)
-- [.NET 5]()
+- [.NET 5](#net-5)
 - [LTS]()
 - [Versionamento]()
 - [Runtime e SDK]()
@@ -73,4 +73,25 @@ Definições:
 ---
 
 ## .NET Standard
+
+**Standard** (padrão).
+
+Definições:
+
+- ``.NET Framework`` e ``.NET Core`` coexistem, muita aplicação que existe hoje foi escrita em ``.NET Framework`` e está sendo migrada para o ``.NET Core``.
+    - Os dois **Frameworks** podem ser _instalados juntos_ (Side-by-Side).
+    - Os dois **Frameworks** podem ser _utilizados_ no mesmo **projeto C#**, em que parte do _projeto_ é "antiga" e utiliza o ``.NET Framework`` é uma parte "nova" que utiliza o ``.NET Core``.
+
+- Como garantir que um _código_ escrito **roda em ambos**? Vai ser **suportado** pelos dois **Frameworks**?
+    - A partir do **``.NET Standard``** que garante que tudo escrito será **executado/rodado/compatível** tanto no ``.NET Framework`` quanto no ``.NET Core``.
+    - O ``.NET Standard`` é a "**intersecção**" entre os dois **Frameworks**.
+    > O ``.NET Standard`` estende também para vertentes, como um item criado em **C#** terá a garantia que vai funcionar no Windows, Web...
+    - O ``.NET Standard`` não é um **Framework**, apenas um _contrato/definição_.
+        - Conhecido com ``Surface API``.
+
+![.NET Standard](https://learn.microsoft.com/pt-br/dotnet/standard/library-guidance/media/cross-platform-targeting/platforms-netstandard.png)
+
+---
+
+## .NET 5
 
