@@ -7,7 +7,8 @@
 - [.NET Core](#net-core)
 - [.NET Standard](#net-standard)
 - [.NET 5](#net-5)
-- [LTS]()
+    - [.NET 5 - Futuro](#net-5---futuro)
+- [LTS](#lts)
 - [Versionamento]()
 - [Runtime e SDK]()
 
@@ -94,4 +95,17 @@ Definições:
 ---
 
 ## .NET 5
+
+### .NET 5 - Futuro
+
+Definições:
+
+- O ``.NET 5`` foi a _unificação_ dos **Frameworks** ``.NET Framework`` e ``.NET Core``.
+- O ``.NET 5`` foi **retro compatível**.
+- Essa mudança foi feita pois o ``.NET Core`` chegou ao ``.NET Framework`` em _nível de conteúdo_.
+- Essa _unificação_ foi feita pois não fazia mais sentido ter **dois Frameworks**.
+
+---
+
+## LTS
 
