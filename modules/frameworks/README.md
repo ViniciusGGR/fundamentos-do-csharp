@@ -14,6 +14,8 @@
 - [Versionamento](#versionamento)
     - [Versionamento de Software](#versionamento-de-software)
 - [Runtime e SDK](#runtime-e-sdk)
+    - [Runtime](#runtime)
+    - [SDK](#sdk)
 
 ---
 
@@ -202,3 +204,38 @@ Definições:
 
 ## Runtime e SDK
 
+### Runtime
+
+O **Runtime** faz o _gerenciamento_ da aplicação.
+
+Definições:
+
+- O **Runtime** é necessário para _executar/rodar/gerenciar_ aplicações **C#**.
+- Aplicações ``.NET`` inicialmente são divididos em 3:
+    - ``ASP.NET`` é uma tecnologia dentro do ``.NET`` para criar aplicações **Web**.
+    - ``Windows Forms`` para criação de aplicações **Desktop**.
+    - ``.NET Core`` para criar qualquer outra aplicação.
+        - **Console**, **Batch**, **Serviço**.
+        - Aplicações que não possuem uma _interface gráfica_ (GUI) por exemplo.
+    - O ``.NET``, ``ASP.NET``, ``Windows Forms``, ``.NET Core`` tem diversas **versões**.
+        - A versão desses **Frameworks** tem que ser _compatível_ com a versão utilizada durante a **codificação**.
+        - Por exemplo, codificando com o **C# 12**, é necessário utilizar o ``.NET 8`` e assim por diante.
+    - O **Runtime** só _roda as aplicações_, apenas executa após a **compilação** para uma (linguagem de máquina).
+    - O **Runtime** tem um _tamanho menor_, é **otimizado para execução**.
+
+### SDK
+
+Definições:
+
+- Sigla para **Software Development Kit** (Kit para desenvolvimento de software).
+    - Traz compilador, suporte a sintaxe do **C#** e várias ferramentas que ajudam durante o desenvolvimento.
+- Possui tudo o que é preciso para **criar aplicações**.
+- O ``SDK`` já vem com o **Runtime** _integrado_.
+    - Não é possível instalar o ``SDK`` sem o **Runtime**.
+- O ``SDK`` **não deve** ser utilizado em "_produção_".
+    - Para "_executar_" só é necessário o **Runtime**.
+    - Em "_produção_" só deve ser instalado o **Runtime** do ``.NET`` para execução da aplicação.
+- O tamanho do ``SDK`` é muito maior do que o **Runtime**.
+    - O ``SDK`` permite o desenvolvimento de _softwares_ utilizando **C#**, ``ASP.NET``, ``.NET``...
+
+---
