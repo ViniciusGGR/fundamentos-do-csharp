@@ -12,7 +12,8 @@
     - [Releases (Lançamentos)](#releases-lançamentos)
     - [Sigla LTS](#sigla-lts)
 - [Versionamento](#versionamento)
-- [Runtime e SDK]()
+    - [Versionamento de Software](#versionamento-de-software)
+- [Runtime e SDK](#runtime-e-sdk)
 
 ---
 
@@ -141,4 +142,63 @@ Definições:
 ---
 
 ## Versionamento
+
+### Versionamento de Software
+
+Definições:
+
+- **Versão Semântica** é _dividida_ em fases:
+    - 1º Fase: **Alpha** - Tá longe de ter uma versão "**final**".
+    - 2º Fase: **Beta** - Versão de "_testes_" de um software, linguagem ou framework. Esse produto já está funcionando (com "bugs" provavelmente), mas que dá uma ideia inicial.
+    - 3º Fase: **Release Candidate** - Uma versão "_candidata_" a ser a versão "**final**". Os "bugs" já foram corrigidos, com os nomes todos corretos (_provavelmente_ será a **versão final**).
+    - 4º Fase: **Final**.
+- Todo esse **versionamento** é dado por _números e letras_.
+- O **versionamento** é dividido em _três partes_:
+    - ``Major``: Primeiro número, **release** maior.
+        - ``5.1.2`` para ``6.0.1``.
+    - ``Minor``: Segundo número, **mudanças pequenas/leves**. Essas mudanças podem "quebrar" a aplicação, mas nada que não possa ser corrigido.
+        - ``3.1.2`` para ``3.2.2``.
+    - ``Patch``. Terceiro número, **correções de bugs** na versão atual.
+        - ``3.1.2`` para ``3.1.3``.
+
+Exemplos:
+
+- ``15.8.2`` - Versão **15** com **8** mudanças significativas e **2** correções de bugs.
+    - ``15`` - Major.
+    - ``8`` - Minor.
+    - ``2`` - Path.
+- ``0.0.1`` - Versão **alpha** (versão inicial).
+- ``1.0.2-rc1`` - "**rc'**" significa _release candidate 1_ uma possível **versão final**.
+
+> **Nota**: Normalmente uma _versão final/oficial_ começa com ``1.0.0``;
+
+Definições:
+
+- Versão ``15.8.2``:
+    - **MAJOR** (``15``): Pode conter "incompatibilidade" com **versões anteriores**.
+        - Chamadas de _Breaking Changes_ (Quebra de código).
+    - **MINOR** (``8``): Possui mudanças mas é **totalmente** compatível com **versões anteriores**.
+        - _Backward Compatibility_ (Versão compatível com **versões anteriores**).
+    - **PATCH** (``2``): Correções de "bugs" e outros itens simples (mudanças não tão significativas).
+
+Definições:
+
+- ``Alpha``: Ainda não sabe como vai ser as coisas.
+    - Muito ainda pode mudar.
+- ``Beta``: Já tem ideia da estrutura.
+    - As coisas ainda podem mudar.
+- ``Release Candidate``: Candidato a versão final.
+- ``Final``: Versão Final.
+
+- Utilizando "_anotações_" como:
+    - ``Alpha`` -> ``0.0.1-a1``.
+    - ``Beta`` -> ``0.0.2-b1``.
+    - ``Release Candidate`` -> ``1.0.0-rc1``.
+    - ``Final`` -> ``1.0.0``.
+
+    > Normalmente **alpha** e **beta** tem _versões menores_ que ``1.0.0``.
+
+---
+
+## Runtime e SDK
 
