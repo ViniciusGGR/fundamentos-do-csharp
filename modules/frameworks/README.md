@@ -92,7 +92,7 @@ Definições:
     - A partir do **``.NET Standard``** que garante que tudo escrito será **executado/rodado/compatível** tanto no ``.NET Framework`` quanto no ``.NET Core``.
     - O ``.NET Standard`` é a "**intersecção**" entre os dois **Frameworks**.
     > O ``.NET Standard`` estende também para vertentes, como um item criado em **C#** terá a garantia que vai funcionar no Windows, Web...
-    - O ``.NET Standard`` não é um **Framework**, apenas um _contrato/definição_.
+    - O ``.NET Standard`` não é um **Framework**, apenas um _contrato/definição/padronização_.
         - Conhecido com ``Surface API``.
 
 ![.NET Standard](https://learn.microsoft.com/pt-br/dotnet/standard/library-guidance/media/cross-platform-targeting/platforms-netstandard.png)
