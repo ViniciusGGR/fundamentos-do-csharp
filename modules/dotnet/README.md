@@ -4,7 +4,8 @@
 
 - [Instalação](#instalação)
 - [dotnet cli](#dotnet-cli)
-- [VS Code]()
+    - [Definições - dotnet CLI](#definições---dotnet-cli)
+- [VS Code](#vs-code)
 - [Tipos de projeto]()
 - [Fluxo de execução]()
 - [Variáveis de ambiente]()
@@ -31,4 +32,28 @@ dotnet --version
 ---
 
 ## dotnet cli
+
+Definições:
+
+- Sigla para **Command Line Interface** (Interface de Linha de Comando).
+    - **Comandos** adicionais integrados ao _terminal_.
+    - O ``dotnet --version`` é um **comando do ``CLI``**.
+
+Quando instalado o ``.NET``, o ``CLI`` é instalado junto.
+
+### Definições - dotnet CLI
+
+- Definido pelo **comando** ``dotnet``. Todos os _comandos_ que comecem com ``dotnet `` está executando o **dotnet CLI**.
+    - O **comando** ``dotnet --version`` - Verifica a _versão atual_.
+    - O **comando** ``dotnet --list-sdks`` - Lista os ``SDKs`` _instalados_.
+    - O **comando** ``dotnet --list-runtimes`` - Lista os ``Runtimes`` _instalados_.
+    - O **comando** ``dotnet help`` - Exibe a **ajuda** e Lista de **comandos** _disponíveis_.
+
+> **dotnet CLI** é uma _integração_ que o ``.NET`` traz com a **linha de comando**.
+
+Os **comandos** podem ser executados no _Windows Terminal_, _CMD_, _Windows PowerShell_, _terminal do Linux/macOS_...
+
+---
+
+## VS Code
 
