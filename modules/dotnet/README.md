@@ -22,8 +22,10 @@ Para verificar a instalação do ``.NET`` no **Windows/Linux/macOS**, digite o s
 
 ```
 dotnet --version
-
->> Retorna: A versão do '.NET' instalada - '7.0.203'
+```
+```
+>> Retorna: A versão do '.NET' instalada
+>> 7.0.203
 ```
 
 ---
