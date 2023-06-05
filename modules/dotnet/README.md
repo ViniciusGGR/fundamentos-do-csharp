@@ -6,7 +6,7 @@
 - [dotnet cli](#dotnet-cli)
     - [Definições - dotnet CLI](#definições---dotnet-cli)
 - [VS Code](#vs-code)
-- [Tipos de projeto]()
+- [Tipos de projeto](#tipos-de-projeto)
 - [Fluxo de execução]()
 - [Variáveis de ambiente]()
 - [Estrutura do App]()
@@ -56,4 +56,24 @@ Os **comandos** podem ser executados no _Windows Terminal_, _CMD_, _Windows Powe
 ---
 
 ## VS Code
+
+O ``VS Code`` (Visual Studio Code) é um _editor de código_. O ``VS Code`` tem o "melhor" **suporte para C#**, é desenvolvido pela **Microsoft**, tem atualizações frequentes, possibilita a criação de **pacotes** próprios, diversos _temas_...
+
+O **Visual Studio Community** é uma ``IDE`` (Ambiente de Desenvolvimento Integrado). Uma ``IDE`` é mais completa que um _editor de código_, mas consome muito mais recursos da sua máquina.
+
+- [Instalação do **VS Code**](https://code.visualstudio.com/)
+- [Artigo - Visual Studio Code: Instalação e Customização](https://balta.io/blog/visual-studio-code-instalacao-customizacao)
+
+O ``VS Code`` tem diversas **extensões** disponíveis para instalação, e essas **extensões** ajudam na _produtividade_ no dia-a-dia de desenvolvimento.
+
+> Lembre-se de **instalar** a _extensão_ do **C#** (ms-dotnettools.csharp) no ``VS Code``.
+
+- O _comando_: ``Ctrl + ,`` abre as **configurações** do VS Code.
+- O _comando_: ``Ctrl + Shift + P`` abre os **comandos** disponíveis no VS Code.
+- O _comando_: ``Ctrl + B`` abre/fecha a **barra lateral** do VS Code.
+- O _comando_: ``Ctrl + Shift + '`` abre o **terminal** do VS Code.
+
+---
+
+## Tipos de projeto
 
