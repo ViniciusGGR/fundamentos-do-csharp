@@ -9,7 +9,8 @@
 - [Tipos de projeto](#tipos-de-projeto)
     - [Criando um novo projeto com .NET](#criando-um-novo-projeto-com-net)
 - [Fluxo de execução](#fluxo-de-execução)
-- [Variáveis de ambiente]()
+    - [Comandos principais do ``.NET``](#comandos-principais-do-net)
+- [Variáveis de ambiente](#variáveis-de-ambiente)
 - [Estrutura do App]()
 - [Debug]()
 
@@ -127,4 +128,23 @@ O _comando_ ``dotnet new typeOfProject`` cria a **estrutura inicial** da _aplica
 ---
 
 ## Fluxo de execução
+
+### Comandos principais do ``.NET``
+
+Definições:
+
+- ``dotnet restore``: _Restaura todos os pacotes_ que a **aplicação** precisa para ser executada.
+    - A primeira coisa a ser feita quando pegar uma aplicação ``.NET`` é executar o **comando** ``dotnet restore``, para que ele baixe todas as _dependências/pacotes_ que essa aplicação precisa para ser **executada**.
+- ``dotnet build``: _Compila_ a **aplicação**.
+    - Ao executar esse comando o ``.NET`` pode gerar mensagens de "alerta" e "erros" na **aplicação**.
+- ``dotnet clean``: _Limpa_ as **compilações** anteriores.
+    - Esse **comando** _limpa todos os arquivos de cache_ da aplicação.
+    - Uma **boa prática** é executar um ``dotnet clean`` _antes de executar_ um ``dotnet build``.
+- ``dotnet run``: _Compila_ e _executa_ a **aplicação**.
+
+> Um _projeto_ ``.NET`` deve possuir um _arquivo_ com a **extensão** ``.csproj``.
+
+---
+
+## Variáveis de ambiente
 
