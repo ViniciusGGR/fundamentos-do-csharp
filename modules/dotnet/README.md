@@ -7,7 +7,8 @@
     - [Definições - dotnet CLI](#definições---dotnet-cli)
 - [VS Code](#vs-code)
 - [Tipos de projeto](#tipos-de-projeto)
-- [Fluxo de execução]()
+    - [Criando um novo projeto com .NET](#criando-um-novo-projeto-com-net)
+- [Fluxo de execução](#fluxo-de-execução)
 - [Variáveis de ambiente]()
 - [Estrutura do App]()
 - [Debug]()
@@ -76,4 +77,54 @@ O ``VS Code`` tem diversas **extensões** disponíveis para instalação, e essa
 ---
 
 ## Tipos de projeto
+
+O ``.NET`` é um **Framework** para criação de _aplicações_ utilizando as **linguagens/ecossistema da Microsoft**, permitindo a criação de _projetos_ vários "tipos", como _projetos_ web, API, Machine Learning... Cada _projeto/aplicação_ criada com ``.NET`` é preciso "especificar" o **tipo de projeto** e com isso cada projeto tem um _resultado final diferente_.
+
+Definições:
+
+- Projeto do tipo: **Class Library** (Biblioteca de Classes)
+    - O resultado final é uma **DLL**.
+    - Não possui interface.
+- Projeto do tipo: **Console Application**
+    - O resultado final é uma **apicação que roda no terminal/console** (um arquivo executável ``.exe``).
+    - Pode receber _dados_, esperar _input do usuário_.
+    - Tem uma _"interface" básica_, na qual o usuário pode interagir.
+- Projeto do tipo: **Web**
+    - ``ASP.NET`` Web.
+    - ``ASP.NET`` MVC.
+    - ``ASP.NET`` WebAPI
+- Projeto do tipo: **Testes**
+    - Microsoft Tests
+    - Projeto de **Teste** são utilizados para _testar_ as **aplicações** antes de enviar para os clientes e deixar todos os **testes automatizados**.
+
+### Criando um novo projeto com .NET
+
+Definições:
+
+- Criando um _novo projeto_ utilizando o **dotnet cli**, com o comando ``dotnet new``:
+    - ``dotnet new console`` -> Novo **Console Application**.
+    - ``dotnet new classlib`` -> Nova **Class Library**.
+    - ``dotnet new web`` -> Novo projeto ``ASP.NET Core``.
+    - ``dotnet new mvc`` -> Novo projeto ``ASP.NET Core``
+    - ``dotnet new webapi`` -> Novo projeto ``ASP.NET Core``.
+    - ``dotnet new mstest`` -> Novo projeto **Microsoft Test**.
+
+O _comando_ ``dotnet new typeOfProject`` cria a **estrutura inicial** da _aplicação_.
+
+- Com o ``dotnet new`` _criar um projeto_ é o mesmo que **gerar os arquivos iniciais** de uma _aplicação_.
+- O ``dotnet new`` vai "sempre" gerar os arquivos na _pasta atual_.
+- Para _especificar_ uma pasta, utilize o ``-o``.
+    - ``dotnet new console -o MeuApp``.
+        - Esse comando vai criar uma _nova pasta_ chamada **MeuApp** com os arquivos dentro.
+
+- O comando ``mkdir NewFolderName`` cria uma **nova pasta** no seu diretório atual.
+- O comando ``cd FolderName`` **acessa/entra** na pasta especificada no comando.
+    - O comando ``cd ..`` volta para o diretório anterior ao atual.
+-O comando ``ls`` **lista todos os arquivos** dentro da pasta/diretório atual.
+
+> O comando ``dotnet new console -o FirstApp`` **cria uma nova aplicação** do _tipo console_ dentro de uma **nova pasta** chamada ``FirstApp``.
+
+---
+
+## Fluxo de execução
 
