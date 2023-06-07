@@ -13,7 +13,7 @@
 - [Variáveis de ambiente](#variáveis-de-ambiente)
     - [Comando ``dotnet run``](#comando-dotnet-run)
 - [Estrutura do App](#estrutura-do-app)
-- [Debug]()
+- [Debug](#debug)
 
 ---
 
@@ -172,4 +172,44 @@ Com o **comando** ``dotnet run`` é possível dizer ao ``.NET`` qual _ambiente e
 ---
 
 ## Estrutura do App
+
+Definições:
+
+- Arquivo ``.csproj``:
+    - Formato **XML**.
+    - Definições do projeto.
+    - Presente em _todo projeto_ ``.NET``.
+- Arquivo ``Program.cs``:
+    - Arquivo principal (**C#**).
+    - Porta de entrada.
+    - Será o _primeiro a ser executado_.
+
+A pasta ``bin`` só está presente na estrutura porque foi _executado_ um ``dotnet build``, o **resultado do "build"/compilação** fica dentro da pasta ``bin`` (**bin** se refere a "**binário**").
+
+- O ``FileName.csproj`` segue a nomenclatura do seu projeto com a _extensão_ ``.csproj`` (``cs`` - CSharp e ``proj`` - Projeto).
+    - É um arquivo **XML**, que é uma _linguagem de marcação_.
+        ```
+        <Project Sdk="Microsoft.NET.Sdk">
+
+        </Project>
+        ```
+        - Essa primeira linha define que é uma _estrutura de um projeto_ e que utiliza o **SDK do ``.NET``**.
+
+        ```
+        <PropertyGroup>
+            <OutputType>Exe</OutputType>
+            <TargetFramework>netcoreapp3.1</TargetFramework>
+        </PropertyGroup>
+        ```
+        - Essa seção ``<PropertyGroup>`` define um "Grupo de propriedades" dentro desse arquivo de **projeto**.
+            - A _propriedade_ ``<OutputTypes>`` define uma "saída" para o _tipo de projeto/aplicação_ criado. No caso, foi criado um **projeto** do _tipo ``Console``_, então o **OutputType** desse **projeto** é um ``.exe`` (executável).
+            - A _propriedade_ ``<TargetFramework>`` se refere a qual **Framework** essa _aplicação_ está se baseando. No caso, é o **Framework** ``.NET 7``.
+
+- O arquivo ``Program.cs`` é o **arquivo principal**. Toda _aplicação_ ``.NET`` tem um "ponto de entrada", no caso é esse arquivo. Toda vez que executado o **comando** ``dotnet run`` o arquivo ``Program.cs`` é "procurado" dentro do projeto para ser **executado**.
+
+A pasta ``obj`` é utilizada para **Tempo de Debug (procurar por um erro)** na aplicação.
+
+---
+
+## Debug
 
