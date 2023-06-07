@@ -213,3 +213,10 @@ A pasta ``obj`` é utilizada para **Tempo de Debug (procurar por um erro)** na a
 
 ## Debug
 
+É possível **executar** uma aplicação ``.NET`` de _duas maneiras_ no VS Code.
+
+- **Modo Release**: Executado com o _comando_ ``dotnet run``. A aplicação é executada como se um "cliente" estivesse utilizando a aplicação.
+- **Modo Debug (Depuração)**: Executado dentro de um **arquivo** ``.cs`` com o comando **``Ctrl + Shift + D``** ou _acessando_ (**Run and Debug** na barra lateral). A _aplicação é executada_ em um modo para "**procura/correção de erros/bugs**", normalmente os desenvolvedores utilizam esse modo para executar as aplicações.
+    > O **Modo Debug** no "VS Code" só funciona se o seu _projeto_ tiver a pasta ``.vscode`` criada.
+
+---
