@@ -11,7 +11,8 @@
 - [Fluxo de execução](#fluxo-de-execução)
     - [Comandos principais do ``.NET``](#comandos-principais-do-net)
 - [Variáveis de ambiente](#variáveis-de-ambiente)
-- [Estrutura do App]()
+    - [Comando ``dotnet run``](#comando-dotnet-run)
+- [Estrutura do App](#estrutura-do-app)
 - [Debug]()
 
 ---
@@ -147,4 +148,28 @@ Definições:
 ---
 
 ## Variáveis de ambiente
+
+Definições:
+
+- É comum ter vários _ambientes_ para **aplicações**, ou seja, onde as _aplicações_ estão **rodando**.
+    - **Ambiente de Desenvolvimento**: É a sua máquina, onde as _aplicações_ estão sendo _desenvolvidas/criadas_.
+    - **Ambiente de Homologação/Testes**: É um _ambiente de teste_, esse ambiente é "fora da sua máquina" e o mesmo é responsável por **testar** as _aplicações_.
+    - **Ambiente de Produção**: É o **servidor** onde a _aplicação_ está "_rodando_" para os usuários, pode-se dizer que é o "**ambiente final**".
+- Cada _ambiente_ possui suas **configurações/variáveis** próprias. Isso é conhecido como ``Variáveis de Ambiente``:
+    - Chaves de acesso externo _específicas_.
+    - Conexões com bancos de dados (BDs específicos).
+
+### Comando ``dotnet run``
+
+Com o **comando** ``dotnet run`` é possível dizer ao ``.NET`` qual _ambiente está sendo utilizado_:
+
+- ``dotnet run --environment=$SEU_AMBIENTE``.
+    - ``dotnet run --environment=development``. Isso garante que o desenvolvedor está no _ambiente de desenvolvimento_.
+    - ``dotnet run --environment=production``. Isso garante que o desenvolvedor está no _ambiente de produção_.
+- O comando ``run`` _não executa_ **depuração** (``Debug``) para detecção de erros.
+    - Neste modo a _aplicação_ não vai parar nos **Break Points**.
+
+---
+
+## Estrutura do App
 
