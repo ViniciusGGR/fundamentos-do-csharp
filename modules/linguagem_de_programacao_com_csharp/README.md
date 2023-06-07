@@ -2,6 +2,52 @@
 
 ### Sumário:
 
-
+- [Notas importantes](#notas-importantes)
+- [Escopo de um programa]()
+- [Namespaces]()
+- [Using]()
+- [Variáveis]()
+- [Constantes]()
+- [Palavras reservadas]()
+- [Comentários]()
+- [Tipos primitivos]()
+- [System]()
+- [Byte]()
+- [Números inteiros]()
+- [Números reais]()
+- [Boolean]()
+- [Char]()
+- [String]()
+- [Var]()
+- [Object]()
+- [Nullabel Types]()
+- [Alias]()
+- [Valores padrões]()
+- [Conversão implícita]()
+- [Conversão explícita]()
+- [Parse]()
+- [Convert]()
+- [Convertendo tipos]()
+- [Operadores aritméticos]()
+- [Operadores de atribuição]()
+- [Operadores de comparação]()
+- [Utilizando operadores]()
+- [Operadores lógicos]()
+- [Operador condicional: IF]()
+- [Utilizando IF]()
+- [Estrutura condicional: Switch]()
+- [Laços de repetição: For]()
+- [Laços de repetição: While]()
+- [Laços de repetição: Do/While]()
+- [Métodos e funções]()
+- [Métodos e funções: Prática]()
+- [Value Types e Reference Types]()
+- [Value Types e Reference Types: Prática]()
+- [Structs]()
+- [Structs: Prática]()
+- [Enums]()
 
 ---
+
+## Notas importantes
+
