@@ -51,3 +51,22 @@
 
 ## Notas importantes
 
+Definições:
+
+- Não utilizar _espaços_ nem _caracteres especiais_ na criação do programa.
+    - Bons: ``MeuApp``, ``Pedidos``, ``MinhaApp``...
+    - Ruins: ``"Meu App"``, ``$APP``, ``App #Teste``...
+    > Sempre _comece_ o ``nome do projeto`` com **letra maiúscula**.
+- Tente utilizar _caminhos curtos_ e sem **caracteres especiais**.
+    - Bons: ``C:\dev``, ``C:\apps``...
+    - Ruins: ``C:\Caminho Com Espaços e Caracteres Especiais\Meu App``...
+- Evite _caminhos/diretórios_ de **rede**.
+    > **Se possível**, utilize o ``C:\``.
+- O **C#** é _Code Sensitive_.
+    - Isto significa que ele _diferencia_ **maiúsculas** de **minúsculas**.
+    - ``Teste`` é diferente de ``teste``.
+
+---
+
+## Escopo de um projeto
+
