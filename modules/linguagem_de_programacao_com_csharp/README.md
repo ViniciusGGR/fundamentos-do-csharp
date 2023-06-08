@@ -6,7 +6,7 @@
 - [Escopo de um programa](#escopo-de-um-programa)
     - [Fluxo de execução de uma aplicação ``.NET``](#fluxo-de-execução-de-uma-aplicação-net)
 - [Namespaces](#namespaces)
-- [Using]()
+- [Using](#using)
 - [Variáveis]()
 - [Constantes]()
 - [Palavras reservadas]()
@@ -120,4 +120,36 @@ Ao executar uma _aplicação_, um arquivo ``Program.cs`` é "procurado", depois 
 ---
 
 ## Namespaces
+
+Definições:
+
+- Os ``namespaces`` são as **divisões lógicas**.
+    - Os ``namespaces`` **não permitem** a criação de _duas classes_ com o mesmo nome em um ``namespace``.
+        - Normalmente o ``namespace`` "acompanha" o nome da _pasta/arquivo_ no qual ele está.
+    - O ideal é ter _apenas_ um ``namespace`` e uma ``class`` por **arquivo**.
+        - Caso precise ter duas **classes** com "mesmo nome" em _pastas diferentes_, basta colocar um (``.OtherName``) depois do nome do ``namespace``.
+    - O "escopo" de um ``namespace`` é _definido_ entre **CHAVES** ``{}``.
+        - **Classes** e **Métodos** também.
+    - Um ``namespace`` pode ser _reutilizado_.
+        - Pode estar presente em **diversos arquivos**.
+        - Um mesmo ``namespace`` pode ser reutilizado em outros arquivos, mas esses novos arquivos **não podem ter** uma **classe** com mesmo nome de outra **classe** já presente em outro arquivo.
+            - Dois ``namespaces`` iguais é permitido em arquivos diferentes, mas com nomes de **classes** diferentes.
+
+> Os ``namespaces`` são as **divisões lógicas** e as "_pastas/diretórios_" são as **divisões físicas**.
+
+- É possível criar quantos ``namespaces`` quiser.
+- Não devem conter **espaços** ou **caracteres especiais**.
+- Toda palavra no ``namespace`` começa com **maiúsculo**.
+- É possível ter um ``namespace`` _dentro de outro_ (pseudo-namespace) usando (``.``).
+- A **importação** é feita pelos ``namespaces``.
+    - Caso queira **importar** um ``namespace`` de outra pasta para o arquivo atual, por exemplo o ``namespace`` (MeuApp.Teste), basta **importar** esse ``namespace`` em outro arquivo com o _comando_: ``using MeuApp.Teste;``
+
+- Durante a execução, todos os arquivos **C#** serão _unificados_.
+    - O resultado será uma ``DLL`` única.
+- A **divisão física** se perderá.
+- Sobrará apenas a **divisão lógica**, que são os ``namespaces``.
+
+---
+
+## Using
 
