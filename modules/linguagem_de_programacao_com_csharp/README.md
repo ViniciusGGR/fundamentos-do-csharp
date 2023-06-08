@@ -3,8 +3,9 @@
 ### Sumário:
 
 - [Notas importantes](#notas-importantes)
-- [Escopo de um programa]()
-- [Namespaces]()
+- [Escopo de um programa](#escopo-de-um-programa)
+    - [Fluxo de execução de uma aplicação ``.NET``](#fluxo-de-execução-de-uma-aplicação-net)
+- [Namespaces](#namespaces)
 - [Using]()
 - [Variáveis]()
 - [Constantes]()
@@ -68,5 +69,55 @@ Definições:
 
 ---
 
-## Escopo de um projeto
+## Escopo de um programa
+
+**Escopo de um programa** é tudo que um _programa/aplicação_ **tem/precisa** para ser _executado_.
+
+Definições:
+
+- Importações.
+    - Exemplo: _Importação_ do _módulo_ para **escrita de arquivos em disco**, do _módulo_ para **acesso a um banco de dados (BD)**.
+    > **Todas as importações** ficam no _começo do arquivo/programa_.
+
+    Exemplo de **importação** que sempre será definida pelo ``using``:
+    ```
+    using System;
+    ```
+- Namespace
+    - Separações/Divisões lógicas dentro da aplicação, nomes (palavras reservadas) dentro do arquivo.
+    > A **divisão física** é feita através de **arquivos** no (Windpws, Linux e/ou macOS).
+
+    ```
+    namespace MeuApp
+    {
+
+    }
+    ```
+    - É possível ter arquivos em _pastas diferentes_, mas com o **mesmo nome** e isso pode/vai ocasionar _conflitos_ nesses arquivos.
+- Classe
+    - É o programa em "si", pois tudo que será **executado** do _programa/aplicação_ está **dentro** de uma ``class``, normalmente essa **classe** tem o nome de ``Program``.
+    ```
+    class Program
+    {
+
+    }
+    ```
+- Método Principal/``Main``
+    - O **método** ``Main`` "sempre" será _executado_ em primeiro lugar.
+    ```
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World!");
+    }
+    ```
+
+O arquivo ``Program.cs`` é o "arquivo de entrada" de qualquer aplicação ``.NET``.
+
+### Fluxo de execução de uma aplicação ``.NET``
+
+Ao executar uma _aplicação_, um arquivo ``Program.cs`` é "procurado", depois é lido a ``class Program`` dentro desse arquivo e depois lê o método ``Main`` dentro dessa **class**.
+
+---
+
+## Namespaces
 
