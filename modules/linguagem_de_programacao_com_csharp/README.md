@@ -7,7 +7,7 @@
     - [Fluxo de execução de uma aplicação ``.NET``](#fluxo-de-execução-de-uma-aplicação-net)
 - [Namespaces](#namespaces)
 - [Using](#using)
-- [Variáveis]()
+- [Variáveis](#variáveis)
 - [Constantes]()
 - [Palavras reservadas]()
 - [Comentários]()
@@ -152,4 +152,28 @@ Definições:
 ---
 
 ## Using
+
+A _importação_ dos ``namespaces`` é feita através da "palavra reservada" **``using``**.
+
+Definições:
+
+- _Importações_ definem as **bibliotecas** que o programa irá utilizar.
+    - Podendo ser **bibliotecas** _internas_ e _externas_.
+- Por "padrão" no ``.NET`` só o _básico_ vem incluso.
+- É preciso _importar_ o que se deseja para poder trabalhar.
+- As _importações_ são feitas no **começo do programa** (é uma **boa prática**).
+    - Para _importar_ se utiliza a "palavra reservada" ``using``.
+
+- O ``using`` é útil para "organizar" o código em **pastas** e ``namespaces`` (isso é _fundamental_).
+    - Em _aplicações grandes_, o volume de código é alto (quantidade de arquivos alta) e pode acabar "virando uma bagunça" se não bem organizado.
+        - Número de pessoas trabalhando no mesmo projeto também é alto.
+        > Entender bem esta _organização_ é fundamental.
+- Use e abuse da **criação de arquivos** e ``namespaces``.
+
+**Organização física** - São as _pastas_ e _arquivos_ do projeto.
+**Organização lógica** - São os ``namespaces``. Então tudo o que se precisa é _importado_ através dos ``namespaces``, que são definidos pelos ``using`` no começo do arquivo.
+
+---
+
+## Variáveis
 
