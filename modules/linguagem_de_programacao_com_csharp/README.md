@@ -8,7 +8,8 @@
 - [Namespaces](#namespaces)
 - [Using](#using)
 - [Variáveis](#variáveis)
-- [Constantes]()
+    - [Padronização de Nomes](#padronização-de-nomes)
+- [Constantes](#constantes)
 - [Palavras reservadas]()
 - [Comentários]()
 - [Tipos primitivos]()
@@ -176,4 +177,36 @@ Definições:
 ---
 
 ## Variáveis
+
+Definições:
+
+- Uma **variável** é algo utilizado para _armazenar uma informação_.
+- **variável** significa que o _valor (dessa informação armazenada)_ pode ser **alterado a qualquer momento**, ou seja, o _valor (informação armazenada)_ pode **variar**.
+- Sempre que uma **variável** é "criada/instanciada", se diz que ela está sendo _inicializada_.
+- Em **C#** pode se utilizar um **TIPO** ou _palavra reservada_ ``var`` para "criar/instanciar" uma **variável**.
+    > Uma ``palavra reservada`` _não pode ser utilizada_ para **nomear uma variável**.
+- No **C#** o _tipo_ (``var``, ``int``...) vem sempre antes do _nome da variável_.
+    - O tipo ``var`` necessita de um **valor**, pois ele é um _tipo não definido_. Portanto, ao declarar uma **variável** do _TIPO_ ``var`` é necessário _informar um valor_ já na **criação da variável**.
+    ```
+    int idade;         // Correto - Inicia com 'ZERO'.
+    int idade = 25;    // Correto - Inicia com '25'.
+    var idade = 25;    // Correto - Inicia com '25'.
+    var idade;         // Errado.
+    ```
+- É possível _informar um valor_ já na **criação da variável**, ou _posteriormente_.
+    - Se **não informado** o _valor padrão_ será aplicado.
+
+### Padronização de Nomes
+
+Definições:
+
+- Utilizar _nomes coesos_ em **variáveis**.
+    - Isso facilita a leitura e entendimento do código por outras pessoas.
+- Não deve-se utilizar _caracteres especiais_ ou _espaços_.
+- Não deve começar com **números**.
+- A _primeira letra_ do nome de uma **variável** é **SEMPRE** _minúscula_. Se a **variável** tiver _nome composto_ a _primeira letra da primeira palavra_ é **minúscula** e a _primeira letra das próximas palavras_ é **maiúscula**.
+
+---
+
+## Constantes
 
