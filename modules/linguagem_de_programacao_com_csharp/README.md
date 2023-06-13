@@ -11,7 +11,7 @@
     - [Padronização de Nomes](#padronização-de-nomes)
 - [Constantes](#constantes)
 - [Palavras reservadas](#palavras-reservadas)
-- [Comentários]()
+- [Comentários](#comentários)
 - [Tipos primitivos]()
 - [System]()
 - [Byte]()
@@ -241,4 +241,20 @@ Definições:
 ---
 
 ## Palavras reservadas
+
+O **C#** possui _nomes reservados_, ou seja, significa que essas **palavras reservadas** não podem ser utilizadas na criação de _constantes/variáveis_.
+
+Definições:
+
+- **Palavras reservadas** também são chamadas de ``keywords``.
+- São **palavras reservadas** de "uso exclusivo" do **C#**.
+- Não podem ser utilizadas como _nomes de variáveis_ ou _constantes_.
+
+> **Dica**: O ``VS Code`` avisa se um **nome/palavra** é **reservado** - (``keyword``).
+
+- [Lista de ``Keywords`` no site da **Microsoft**](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
+
+---
+
+## Comentários
 
