@@ -10,7 +10,7 @@
 - [Variáveis](#variáveis)
     - [Padronização de Nomes](#padronização-de-nomes)
 - [Constantes](#constantes)
-- [Palavras reservadas]()
+- [Palavras reservadas](#palavras-reservadas)
 - [Comentários]()
 - [Tipos primitivos]()
 - [System]()
@@ -209,4 +209,36 @@ Definições:
 ---
 
 ## Constantes
+
+Definições:
+
+- Uma **constante** também é utilizada para _armazenar uma informação_.
+- As **constantes** ``NÃO PODEM`` ser _alteradas_.
+    - Uma vez que uma **constante** é criada, _atribuir um valor_ se torna obrigatório.
+    - Após essa _atribuição de valor_, uma **constante** ``NÃO PODERÁ`` ser _modificada_ novamente.
+- Uma **constante** não funciona com a utilização de ``var``.
+- Uma **constante** é mais _otimizada_ do que uma **variável**.
+- São recomendadas para usos frequentes.
+
+> As **constantes** são muito utilizadas para criar **regras** para o sistema, uma  _validação_ de qualquer tipo e definir uma **informação** que será _reutilizada_ em diversos lugares do sistema/aplicação, mas que essa **informação** _não pode variar (ser alterada)_.
+
+- A definição de **constante** é dada pela _palavra reservada_ ``const`` antes do tipo.
+- Caso não seja informado um valor, o **valor padrão** será atribuido.
+    ```
+    const int IDADE_MINIMA;         // Correto - Inicia com 'ZERO'.
+    const int IDADE_MINIMA = 25;    // Correto - Inicia com '25'.
+    const var IDADE_MINIMA = 25;    // Errado.
+    const var IDADE_MINIMA;         // Errado.
+    ```
+- Utilize _nomes coesos_ em **constantes**.
+- Não deve utilizar **caracteres especiais** ou **espaços**.
+- Não deve começar com _números_.
+- É comum ver **constantes** todas em _maiúsculas_, separadas por "``_``".
+    - A ideia é "bater o olho no código" e saber que aquilo é uma **constante**.
+
+> É uma **boa prática** _sempre inicializar variáveis/constantes_ no **C#**.
+
+---
+
+## Palavras reservadas
 
