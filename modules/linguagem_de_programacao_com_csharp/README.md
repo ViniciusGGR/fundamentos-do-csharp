@@ -12,7 +12,7 @@
 - [Constantes](#constantes)
 - [Palavras reservadas](#palavras-reservadas)
 - [Comentários](#comentários)
-- [Tipos primitivos]()
+- [Tipos primitivos](#tipos-primitivos)
 - [System]()
 - [Byte]()
 - [Números inteiros]()
@@ -257,4 +257,26 @@ Definições:
 ---
 
 ## Comentários
+
+Um **comentário** é um "_lembrete/descrição_" de algo que **não será executado pelo compilador**.
+
+Definições:
+
+- Em _diversos cenários_ é preciso "deixar" uma _mensagem_/**comentário**.
+- Esta _mensagem_/**comentário** não deve ser _executada pelo programa_.
+- É "comum" utilizar **comentários** em _linhas de código_ que não se deseja **executar**.
+- É possível ter **comentários** de:
+    - Uma linha - ``// Comment here``.
+    - Múltiplas linhas - ``/* Comment here */``.
+    - XML (Metadata). Esse modelo gera _informações adicionais_ sobre uma **classe** - ``/// Comment here``.
+
+> **Atalho**: O _atalho_ para **comentar linha(s) no ``VS Code`` é**: ``Ctrl + k + c``. O _atalho_ para **descomentar linha(s) no ``VS Code`` é**: ``Ctrl + k + u``.
+
+Evite **comentários** "bobos/tolos", que não são necessários para entender o código.
+
+> **Comentários** também servem como forma de _documentar_ o seu código/projeto.
+
+---
+
+## Tipos primitivos
 
