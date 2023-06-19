@@ -13,7 +13,7 @@
 - [Palavras reservadas](#palavras-reservadas)
 - [Comentários](#comentários)
 - [Tipos primitivos](#tipos-primitivos)
-- [System]()
+- [System](#system)
 - [Byte]()
 - [Números inteiros]()
 - [Números reais]()
@@ -279,4 +279,28 @@ Evite **comentários** "bobos/tolos", que não são necessários para entender o
 ---
 
 ## Tipos primitivos
+
+_Tipos de dados_ são os "tipos" que as **variáveis/constantes** podem ser no **C#**.
+
+Definições:
+
+- **Tipos Primitivos**, também conhecidos como ``built-in types``.
+- São _tipos base_ que se tem no ``.NET``, cujo outros **tipos** (``Complexos``) irão derivar.
+- _Definir_ o **tipo** correto do "dado" _otimiza a execução do programa_.
+- Os **Tipos Primitivos**, também são chamados de **Tipos de Valor**.
+- Os **Tipos Primitivos** _armazenam valor_ e não a referência para um item na memória.
+- Os **Tipos Primitivos** são classificados em:
+    - Tipos Simples (``Simple Types``).
+    - Enumeradores (``Enums``).
+    - Estruturas (``Structs``).
+    - Tipos Nulos (``Nullable Types``).
+- Cada **Tipo Primitivo** possui uma _capacidade_, isso que "difere" cada tipo de outro.
+    - Caso esta _capacidade_ exceda, o programa gera um erro.
+    - Esta _capacidade_ **pré-definida** ajuda na _otimização do programa_.
+    - Por exemplo: O _tipo_ ``int``:
+        - Vai de ``-2,147,483,648`` até ``2,147,483,647``. Qualquer valor _fora desse alcance_ **gerará um erro no programa**.
+
+---
+
+## System
 
