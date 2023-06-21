@@ -14,7 +14,7 @@
 - [Comentários](#comentários)
 - [Tipos primitivos](#tipos-primitivos)
 - [System](#system)
-- [Byte]()
+- [Byte](#byte)
 - [Números inteiros]()
 - [Números reais]()
 - [Boolean]()
@@ -303,4 +303,18 @@ Definições:
 ---
 
 ## System
+
+O ``System`` é o _tipo base_ do ``.NET``, é o _tipo_ que todos os outros "_tipos_" derivam.
+
+Definições:
+
+- No ``.NET`` tudo começa de um _tipo base/raiz_ chamado **``system``**.
+- Todo e qualquer tipo, seja **built-in** ou **complexo** deriva do **``system``**.
+- O **``system``** é a _base_ de todos os **objetos** no ``.NET``.
+- Não é preciso se preocupar em usá-lo ou qualquer coisa similar.
+- O uso do **``system``** já é _implícito_.
+
+---
+
+## Byte
 
