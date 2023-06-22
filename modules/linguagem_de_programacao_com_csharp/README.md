@@ -15,7 +15,7 @@
 - [Tipos primitivos](#tipos-primitivos)
 - [System](#system)
 - [Byte](#byte)
-- [Números inteiros]()
+- [Números inteiros](#números-inteiros)
 - [Números reais]()
 - [Boolean]()
 - [Char]()
@@ -317,4 +317,29 @@ Definições:
 ---
 
 ## Byte
+
+Definições:
+
+- O tipo ``byte`` (_tipo primitivo_ **built-jn type**) é utilizado para **representar** um "byte" de fato.
+- Em diversos casos é preciso da _cadeia de bytes_ de um **arquivo** por exemplo.
+    - _cadeia de bytes_ também chamado de **byte array**.
+- Também existe o ``sbyte``, que permite _valores negativos_.
+
+> **``Signed``** e **``Usigned``**: _Valores_ com sinal como "**-**" por exemplo, são chamados de **``signed``**.
+
+- ``byte`` (8-bit).
+    - O ``byte`` vai de **0** até **255**.
+- ``sbyte`` (8-bit).
+    - O ``sbyte`` vai de **-128** até **127**.
+
+> **Nota**: O ``sbyte`` _permite valores negativos_, por isto no nome ``sbyte``, que significa **Signed Byte**.
+
+```
+byte meuByte = 127;
+sbyte myByte = -56;
+```
+
+---
+
+## Números inteiros
 
