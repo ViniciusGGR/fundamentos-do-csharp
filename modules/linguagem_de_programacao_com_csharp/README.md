@@ -16,7 +16,7 @@
 - [System](#system)
 - [Byte](#byte)
 - [Números inteiros](#números-inteiros)
-- [Números reais]()
+- [Números reais](#números-reais)
 - [Boolean]()
 - [Char]()
 - [String]()
@@ -342,4 +342,31 @@ sbyte myByte = -56;
 ---
 
 ## Números inteiros
+
+Definições:
+
+- _Números inteiros_, ou seja, **sem pontuação**, podem ser definidos pelos _tipos_:
+    - ``short``/``ushort`` - Utilizado para valores menores.
+    - ``int``/``uint`` - Utilizado para valores intermediários.
+    - ``long``/``ulong`` - Utilizado para valores maiores.
+- Assim como o _signed_ nos **bytes** (``sbyte``), nos **_números_** por padrão são _permitidos valores negativos_.
+    - Então o _unsigned_ é usado para **definir** que o mesmo _não pode receber valores negativos_ (``ushort``, ``uint``, ``ulong``).
+- O _tipo_ ``int`` é o "mais comum" a ser encontrado.
+
+- ``short`` - (16-bit).
+    - aceita valores entre **-32,768** até **32,767**.
+- ``ushort`` - (16-bit).
+    - aceita valores entre **0** até **65.535**.
+- ``int`` - (32-bit).
+    - aceita valores entre **-2,147,483,648** até **2,147,483,647**.
+- ``uint`` - (32-bit).
+    - aceita valores entre **0** até **4,294,967,295**.
+- ``long`` - (64-bit).
+    - aceita valores entre **-9,223,372,036,854,775,808** até **9,223,372,036,854,775,807**.
+- ``ulong`` - (64-bit).
+    - aceita valores entre **0** até **18,446,744,073,709,551,615**.
+
+---
+
+## Números reais
 
