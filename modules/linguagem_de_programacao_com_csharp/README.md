@@ -17,7 +17,7 @@
 - [Byte](#byte)
 - [Números inteiros](#números-inteiros)
 - [Números reais](#números-reais)
-- [Boolean]()
+- [Boolean](#boolean)
 - [Char]()
 - [String]()
 - [Var]()
@@ -369,4 +369,28 @@ Definições:
 ---
 
 ## Números reais
+
+Números reais, são _números_ que possuem (``.``). Também podem ser chamados de _números flutuates_ ou _números de ponto flutuante_.
+
+Definições:
+
+- São números que "exigem" uma _maior precisam_, ou seja, com **pontuação** (Números reais).
+    - Tipo ``float`` (Possui a _notação_ **F/f**).
+    - Tipo ``double``.
+    - Tipo ``decimal`` (Possui a _notação_ **M/m**).
+- Possuem _assimilação negativa e positiva_ por padrão, dispensando uso do **signed/unsigned** em seus _tipos_.
+
+- Tipo ``float`` - (32-bit).
+    - aceita valores entre **-3.402823e38** até **3.402823e38**.
+- Tipo ``double`` - (64-bit).
+    - aceita valores entre **-1.79769313486232e308** até **1.19769313486232e308**.
+- Tipo ``decimal`` - (128-bit).
+    - aceita valores entre (+ ou -) **1.0 x 10e-28** até **7.9 x 10e28**.
+
+> O _tipo_ ``double`` é a _recomendação padrão_ a ser utilizada em programas **C#**.
+
+---
+
+## Boolean
+
 
