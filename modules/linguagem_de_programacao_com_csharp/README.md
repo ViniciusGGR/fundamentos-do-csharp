@@ -22,7 +22,7 @@
 - [String](#string)
 - [Var](#var)
 - [Object](#object)
-- [Nullabel Types]()
+- [Nullabel Types](#nullabel-types)
 - [Alias]()
 - [Valores padrões]()
 - [Conversão implícita]()
@@ -450,4 +450,20 @@ var name = "Vinícius"    // Será do tipo 'string'.
 ---
 
 ## Object
+
+Definições:
+
+- O _tipo_ ``object`` é um **tipo genérico** que recebe qualquer "valor ou objeto".
+- Caso não saiba o _tipo da informação_ ou ela seja de _vários tipos_ diferentes.
+- Não possui **intelisense** (_Ajuda dos editores_) por ser um tipo desconhecido.
+- Evite usar o _tipo_ ``object`` (por enquanto). 
+
+```
+object age = 25;    // Será do tipo 'object'.
+object name = "Vinícius";    // Será do tipo 'object'.
+```
+
+---
+
+## Nullabel Types
 
