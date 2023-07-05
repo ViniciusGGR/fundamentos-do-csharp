@@ -18,7 +18,7 @@
 - [Números inteiros](#números-inteiros)
 - [Números reais](#números-reais)
 - [Boolean](#boolean)
-- [Char]()
+- [Char](#char)
 - [String]()
 - [Var]()
 - [Object]()
@@ -393,4 +393,16 @@ Definições:
 
 ## Boolean
 
+Tipo ``Bool`` que vem do nome _Boolean_.
+
+Definições:
+
+- O _tipo_ **booleano**, armazena apenas ``true`` e ``false`` (**verdadeiro** ou **falso**).
+- Definido pela _palavra reservada_ ``bool``.
+- Tipo ``bool`` - (8-bit).
+    - aceita os valores ``true`` ou ``false``.
+
+---
+
+## Char
 
