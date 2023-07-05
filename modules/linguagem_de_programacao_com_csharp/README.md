@@ -20,7 +20,7 @@
 - [Boolean](#boolean)
 - [Char](#char)
 - [String](#string)
-- [Var]()
+- [Var](#var)
 - [Object]()
 - [Nullabel Types]()
 - [Alias]()
@@ -418,4 +418,18 @@ Definições:
 ---
 
 ## String
+
+Definições:
+
+- O _tipo_ ``string``, armazena uma **cadeia de caracteres**.
+- Pode-se pensar nele como um _lista de ``char``_.
+- Definido pela _palavra reservada_ ``string``.
+- A **atribuição** de um valor ``string`` é dada por **aspas duplas** (``""``).
+    - Com o tipo ``string`` _não pode ser utilizado **aspas simples** (``""``) para atribuição de valores_.
+- Tipo ``string`` - (Ocupação de memória é dinâmica).
+    - Qualquer _cadeia de caracteres_.
+
+---
+
+## Var
 
