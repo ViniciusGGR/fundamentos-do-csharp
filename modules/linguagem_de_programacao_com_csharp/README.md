@@ -23,7 +23,9 @@
 - [Var](#var)
 - [Object](#object)
 - [Nullabel Types](#nullabel-types)
-- [Alias]()
+    - [Void](#void)
+    - [Null](#null)
+- [Alias](#alias)
 - [Valores padrões]()
 - [Conversão implícita]()
 - [Conversão explícita]()
@@ -466,4 +468,31 @@ object name = "Vinícius";    // Será do tipo 'object'.
 ---
 
 ## Nullabel Types
+
+Nullabel Types (Tipos nulos).
+
+### Void
+
+Void (vazio), significa que não possui retorno algum, não é nada, é um espaço vazio.
+
+### Null
+
+Definições:
+
+- ``Null`` significa _vazio, nada_.
+- ``Null`` é **diferente** de zero ou uma string vazia.
+- Todo _tipo_, **primitivo** ou **complexo** pode receber o valor ``null``.
+- O _tipo_ deve ser marcado como ``Nullable Type``.
+- É possível **atribuir** ``null`` a um objeto.
+- Desde que o mesmo seja marcado como **nullable**.
+    - Para marcar o _tipo_ como ``null``, deve-se utilizar uma _interrogação_ (**``?``**) na frente do _tipo_.
+- Se uma "chamada" a um valor **nulo** for feita um _erro será apresentado_.
+
+```
+int? age = null;
+```
+
+---
+
+## Alias
 
