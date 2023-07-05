@@ -19,7 +19,7 @@
 - [Números reais](#números-reais)
 - [Boolean](#boolean)
 - [Char](#char)
-- [String]()
+- [String](#string)
 - [Var]()
 - [Object]()
 - [Nullabel Types]()
@@ -405,4 +405,17 @@ Definições:
 ---
 
 ## Char
+
+Definições:
+
+- O _tipo_ ``char`` é utilizado para armazenar **apenas um e somente um caractere** no formato _Unicode_.
+- Definido pela _palavra reservada_ ``char``.
+- A **atribuição** de um valor ``char`` é dada por **aspas simples** (``''``).
+    - Com o tipo ``char`` _não pode ser utilizado **aspas duplas** (``""``) para atribuição de valores_.
+- Tipo ``char`` - (16-bit).
+    - Qualquer caractere no formato _Unicode_.
+
+---
+
+## String
 
