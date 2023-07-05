@@ -21,7 +21,7 @@
 - [Char](#char)
 - [String](#string)
 - [Var](#var)
-- [Object]()
+- [Object](#object)
 - [Nullabel Types]()
 - [Alias]()
 - [Valores padrões]()
@@ -432,4 +432,22 @@ Definições:
 ---
 
 ## Var
+
+Definições:
+
+- O _tipo_ ``var``, "substitui" o _nome de um tipo_.
+- O _tipo_ ``var`` **assume** o _tipo_ do **primeiro valor atribuído**.
+- O uso do ``var`` é recomendado.
+    > **Observação**: Deixe para usar o _tipo_ ``var`` quando já dominar os _tipos_.
+
+```
+var age = 25;    // Será do tipo 'int'.
+var name = "Vinícius"    // Será do tipo 'string'.
+```
+
+> Definido o ``var`` uma vez, esse _tipo atribuído_ não poderá ser **alterado**.
+
+---
+
+## Object
 
