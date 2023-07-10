@@ -30,7 +30,7 @@
 - [Conversão implícita](#conversão-implícita)
 - [Conversão explícita](#conversão-explícita)
 - [Parse](#parse)
-- [Convert]()
+- [Convert](#convert)
 - [Convertendo tipos]()
 - [Operadores aritméticos]()
 - [Operadores de atribuição]()
@@ -593,4 +593,18 @@ uint valueNotSignal = (uint)value;    // Conversão explícita.
 ---
 
 ## Parse
+
+Definições:
+
+- O ``Parse`` é um método presente em todo _tipo primitivo_ (**Bulti-in**).
+- É usado para **converter um caractere** ou **string** para um _tipo qualquer_.
+- Caso haja alguma incompatilibilidade, será **gerado um erro**.
+
+```
+int value = int.Parse("100");
+```
+
+---
+
+## Convert
 
