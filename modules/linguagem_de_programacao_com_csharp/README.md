@@ -31,7 +31,7 @@
 - [Conversão explícita](#conversão-explícita)
 - [Parse](#parse)
 - [Convert](#convert)
-- [Convertendo tipos]()
+- [Convertendo tipos](#convertendo-tipos)
 - [Operadores aritméticos]()
 - [Operadores de atribuição]()
 - [Operadores de comparação]()
@@ -607,4 +607,21 @@ int value = int.Parse("100");
 ---
 
 ## Convert
+
+Definições:
+
+- O ``Convert`` é similar ao ``Parse``.
+- O ``Convert`` porém permite _converter várias tipos de valor_.
+    - Não apenas ``string`` como é no ``Parse``.
+- Deve-se informar o _tipo_ na **chamada da conversão**.
+
+```
+int value = Convert.ToInt32("100");
+```
+
+O ``Convert`` é uma _classe/objeto_ que permite a **conversão** de uma ``string`` para outro _tipo primitivo_.
+
+---
+
+## Convertendo tipos
 
