@@ -29,7 +29,7 @@
 - [Valores padrões](#valores-padrões)
 - [Conversão implícita](#conversão-implícita)
 - [Conversão explícita](#conversão-explícita)
-- [Parse]()
+- [Parse](#parse)
 - [Convert]()
 - [Convertendo tipos]()
 - [Operadores aritméticos]()
@@ -579,4 +579,18 @@ Definições:
 
 ## Conversão explícita
 
+Definições:
+
+- Ocorre quando os _tipos_ não são **compatíveis**.
+- É dada pelo uso do _tipo_ **entre parênteses** _antes da atribuição_.
+- Segue as mesmas regras anteriores.
+
+```
+int value = 100;
+uint valueNotSignal = (uint)value;    // Conversão explícita.
+```
+
+---
+
+## Parse
 
