@@ -26,7 +26,7 @@
     - [Void](#void)
     - [Null](#null)
 - [Alias](#alias)
-- [Valores padrões]()
+- [Valores padrões](#valores-padrões)
 - [Conversão implícita]()
 - [Conversão explícita]()
 - [Parse]()
@@ -495,4 +495,22 @@ int? age = null;
 ---
 
 ## Alias
+
+Definições:
+
+- ``Alias`` é um "apelido" que _todo tipo_ no ``.NET`` tem.
+- Por exemplo:
+    - ``System.String`` tem o **alias** ``string``.
+- Como o **C#** é _Case Sensitive_, tanto faz escrever o **nome do tipo** ou o **alias** (apelido).
+- É recomendado usar _sempre_ o **alias**.
+- No caso abaixo o resultado será o mesmo:
+    ```
+    int age = 25;    // Alias.
+    int32 age = 25;  // Tipo.
+    ```
+    - Com o **alias** se escreve menos código.
+
+---
+
+## Valores padrões
 
