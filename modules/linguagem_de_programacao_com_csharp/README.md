@@ -28,7 +28,7 @@
 - [Alias](#alias)
 - [Valores padrões](#valores-padrões)
 - [Conversão implícita](#conversão-implícita)
-- [Conversão explícita]()
+- [Conversão explícita](#conversão-explícita)
 - [Parse]()
 - [Convert]()
 - [Convertendo tipos]()
@@ -530,4 +530,53 @@ Definições:
 ---
 
 ## Conversão implícita
+
+Definições:
+
+- É comum precisar _transformar_ um **dado de tipo "X"** para **tipo "Y"**.
+- Existem _dois tipos_ de **conversão**, as _implícitas_ e as _explícitas_.
+- **Conversões implícitas**:
+    - Podem ser _executadas apenas_ com **passagem de dados**.
+    - Possuem _tipos compatíveis_.
+        ```
+        float value = 25.8F;
+        int other = 25;
+
+        value = other;    // Conversão implícita.
+        ```
+
+        - A **conversão** anterior ocorreu pois um _número real_ pode receber um _número inteiro_.
+        - Porém, ao contrário não aconteceria.
+            - Um _número inteiro_ não tem **pontuação**. Logo ele não poderia receber um _número real_.
+        - A **conversão** só ocorrerá se:
+            - O _tipo de dado_ for **compatível**.
+            - O _tamanho do dado_ for **compatível**.
+        - Em caso de números a _precisão_ pode ser alterada.
+        - Qualquer situação adversa causará erro.
+
+- ``sbyte``:
+    - ``short``, ``int``, ``long``, ``double``, ``decimal``.
+- ``byte``:
+    - ``short``, ``ushort``, ``int``, ``uint``, ``long``, ``ulong``, ``float``, ``double``, ``decimal``.
+- ``short``:
+    - ``int``, ``long``, ``float``, ``double``, ``decimal``.
+- ``ushort``:
+    - ``int``, ``uint``, ``long``, ``ulong``, ``float``, ``double``, ``decimal``.
+- ``int``:
+    - ``long``, ``float``, ``double``, ``decimal``.
+- ``uint``:
+    - ``long``, ``ulong``, ``float``, ``double``, ``decimal``.
+- ``long``:
+    - ``float``, ``double``, ``decimal``.
+- ``ulong``:
+    - ``float``, ``double``, ``decimal``.
+- ``char``:
+    - ``ushort``, ``int``, ``uint``, ``long``, ``ulong``, ``float``, ``double``, ``decimal``.
+- ``float``:
+    - ``double``.
+
+---
+
+## Conversão explícita
+
 
