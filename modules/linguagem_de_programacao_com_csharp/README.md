@@ -27,7 +27,7 @@
     - [Null](#null)
 - [Alias](#alias)
 - [Valores padrões](#valores-padrões)
-- [Conversão implícita]()
+- [Conversão implícita](#conversão-implícita)
 - [Conversão explícita]()
 - [Parse]()
 - [Convert]()
@@ -513,4 +513,21 @@ Definições:
 ---
 
 ## Valores padrões
+
+Quando se define um _tipo_ (**built-in** - tipo padrão), ele sempre vem com um **valor padrão**, ele _nunca_ vem nulo.
+
+Definições:
+
+- Todo _tipo_ ``built-in``, já possui um **valor padrão**.
+- Se nenhum valor for informado, seu **valor padrão** será utilizado.
+    - ``int`` => 0.
+    - ``float`` => 0.
+    - ``decimal`` => 0.
+    - ``bool`` => false.
+    - ``char`` => '\0'.
+    - ``string`` => "".
+
+---
+
+## Conversão implícita
 
